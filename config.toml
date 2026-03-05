@@ -1,0 +1,217 @@
+baseURL = "https://3dprintceramic.com/"
+languageCode = "en-us"
+title = "3D Print Ceramic"
+theme = "printwire"
+
+# ── All single-value params MUST come before [[params.*]] array tables ──
+[params]
+tagline       = "The definitive resource for ceramic additive manufacturing."
+description   = "3D Print Ceramic — the leading resource for ceramic additive manufacturing news, research, and custom printing services. Covering technical ceramics, clay printing, and kiln-free fabrication."
+keywords      = "ceramic 3D printing, additive manufacturing ceramics, clay 3d printing, technical ceramics, alumina printing, zirconia printing, lithography-based ceramic, binder jetting ceramics"
+logoEmoji     = "🏺"
+contactEmail  = "maxdavisgroup@gmail.com"
+ogImage       = "images/01_voronoi_vase.png"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#c2714f"
+colorPrimaryDark  = "#a85e3e"
+colorPrimaryLight = "#d4896b"
+colorBgDark       = "#0d0b09"
+colorBgSection    = "#111009"
+colorBgCard       = "#1a1510"
+colorBgCardHover  = "#231d15"
+colorBorder       = "rgba(194,113,79,0.18)"
+colorBorderLight  = "rgba(194,113,79,0.08)"
+
+fontPrimary   = "Josefin+Sans"
+fontSecondary = "Lato"
+
+pubmedQuery        = "ceramic+additive+manufacturing+3D+printing"
+pubmedFallback     = "ceramic+additive+manufacturing"
+newsFallbackImages = [
+  "images/02_printer_action.png",
+  "images/07_studio_workstation.png",
+  "images/10_industrial_printer.png"
+]
+
+heroEyebrow  = "Ceramic Additive Manufacturing"
+heroTitle    = "Where <em>Clay Meets</em><br>Computation"
+heroSubtitle = "The definitive resource for ceramic 3D printing — covering the latest research, Lithoz LCM, direct ink writing, binder jetting, and custom fabrication services."
+heroCta1Text = "Latest Research"
+heroCta1URL  = "/articles/"
+heroCta2Text = "Our Services"
+heroCta2URL  = "/services/"
+heroImage    = "images/01_voronoi_vase.png"
+
+newsSectionTitle    = "Ceramic 3D Printing News"
+newsSectionSubtitle = "Peer-reviewed research and industry developments from across the ceramic additive manufacturing field."
+
+overviewLabel   = "Industry Overview"
+overviewTitle   = "A New Era for Technical Ceramics"
+overviewText    = "Ceramic 3D printing — spanning direct ink writing (DIW), lithography-based ceramic manufacturing (LCM), binder jetting, and digital light processing (DLP) — is transforming how industries produce complex oxide and non-oxide parts."
+overviewText2   = "From aerospace thermal protection systems to same-day chairside dental restorations, ceramic AM is expanding what hard, brittle materials can do."
+overviewImage   = "images/04_extrusion_closeup.png"
+overviewBtnText = "Learn More"
+overviewBtnURL  = "/about/"
+
+applicationsLabel = "Key Applications"
+applicationsTitle = "Where Ceramic 3D Printing Excels"
+
+servicesLabel    = "What We Offer"
+servicesTitle    = "Custom Ceramic Printing Services"
+servicesSubtitle = "From concept to fired part — full-service ceramic additive manufacturing for studios, research labs, and industry."
+
+clusterLabel = "Ceramic Cluster"
+clusterTitle = "More Ceramic 3D Printing Resources"
+
+newsletterTitle = "Ceramic 3D Printing Updates"
+newsletterText  = "Get the latest research, machine releases, and material breakthroughs delivered to your inbox."
+
+ctaTitle   = "Start Your Ceramic Project"
+ctaText    = "From one-off studio pieces to production-grade technical components — let's discuss your requirements."
+ctaImage   = "images/10_industrial_printer.png"
+ctaBtnText = "Get a Free Quote"
+ctaBtnURL  = "/contact/"
+
+# ── Array tables come LAST (TOML: keys after [[...]] belong to that element) ──
+
+[[params.stats]]
+count  = 3
+suffix = "B+"
+label  = "Market by 2034"
+
+[[params.stats]]
+count  = 28
+suffix = "%"
+label  = "Annual Growth CAGR"
+
+[[params.stats]]
+count  = 87
+suffix = ""
+label  = "Vendors at Formnext 2025"
+
+[[params.stats]]
+count  = 4
+suffix = "M+"
+label  = "Parts Printed (Lithoz)"
+
+[[params.applications]]
+title       = "Industrial & Thermal"
+description = "Heat exchangers, kiln furniture, combustion liners, and refractory components with geometries impossible to mold."
+image       = "images/16_heat_exchanger.png"
+
+[[params.applications]]
+title       = "Design & Tableware"
+description = "Studio pottery, bespoke tableware, and decorative objects with algorithmic surface textures and parametric forms."
+image       = "images/08_teacup_set.png"
+
+[[params.applications]]
+title       = "Architecture & Facades"
+description = "Custom glazed facade panels, acoustic tiles, and structural terracotta elements at architectural scale."
+image       = "images/06_wall_panel.png"
+
+[[params.applications]]
+title       = "Biomedical"
+description = "Hydroxyapatite scaffolds for bone regeneration, dental crowns, and patient-specific surgical implants."
+image       = "images/05_lattice_cubes.png"
+
+[[params.servicesPreview]]
+icon        = "🏺"
+title       = "Direct Ink Writing (DIW)"
+description = "Clay-body extrusion for functional and decorative ceramics. Supports stoneware, porcelain, and technical paste systems."
+
+[[params.servicesPreview]]
+icon        = "💡"
+title       = "LCM / DLP Ceramic"
+description = "Lithography-based ceramic manufacturing for high-resolution alumina and zirconia parts with ±0.1 mm tolerances."
+
+[[params.servicesPreview]]
+icon        = "🔥"
+title       = "Firing & Post-Processing"
+description = "In-house debinding and sintering. Glazing, surface finishing, and quality inspection to final spec."
+
+[[params.servicesPreview]]
+icon        = "📊"
+title       = "Prototyping & R&D"
+description = "Rapid iteration for materials scientists and designers. Custom paste formulation available on request."
+
+[[params.services]]
+name        = "Direct Ink Writing (DIW)"
+description = "Clay-body extrusion for functional and decorative ceramics. Supports stoneware, porcelain, and technical paste systems."
+icon        = "🏺"
+image       = "images/02_printer_action.png"
+
+[[params.services]]
+name        = "LCM / DLP Ceramic"
+description = "Lithography-based ceramic manufacturing for high-resolution alumina and zirconia parts with ±0.1 mm tolerances."
+icon        = "💡"
+image       = "images/03_fine_detail_part.png"
+
+[[params.services]]
+name        = "Firing & Post-Processing"
+description = "In-house debinding and sintering. Glazing, surface finishing, and quality inspection to final spec."
+icon        = "🔥"
+image       = "images/12_kiln_loading.png"
+
+[[params.services]]
+name        = "Prototyping & R&D"
+description = "Rapid iteration for materials scientists and designers. Custom paste formulation available on request."
+icon        = "📊"
+image       = "images/07_studio_workstation.png"
+
+[[params.clusterLinks]]
+name        = "3dprintceramics.com"
+url         = "https://3dprintceramics.com"
+description = "Ceramics printing community & resources"
+
+[[params.clusterLinks]]
+name        = "3dprintporcelain.com"
+url         = "https://3dprintporcelain.com"
+description = "Porcelain & fine clay 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintstone.com"
+url         = "https://3dprintstone.com"
+description = "Stone & concrete additive manufacturing"
+
+[[params.clusterLinks]]
+name        = "3dprinttile.com"
+url         = "https://3dprinttile.com"
+description = "Custom 3D printed tile & facades"
+
+[[params.clusterLinks]]
+name        = "tile3dprint.com"
+url         = "https://tile3dprint.com"
+description = "Tile design & fabrication services"
+
+# ── Navigation ────────────────────────────────────────────────────
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
